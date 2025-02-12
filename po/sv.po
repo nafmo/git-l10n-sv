@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: git 2.48.0\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2024-12-30 11:57+0100\n"
-"PO-Revision-Date: 2024-12-30 12:03+0100\n"
+"PO-Revision-Date: 2025-02-12 23:23+0100\n"
 "Last-Translator: Peter Krefting <peter@softwolves.pp.se>\n"
 "Language-Team: Svenska <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -5239,7 +5239,7 @@ msgid ""
 "section in \"git help worktree\" for details"
 msgstr ""
 "--worktree kan inte användas med flera arbetskataloger om inte\n"
-"konfigurationsutöknignen worktreeConfig har aktiverats. Läsa stycket\n"
+"konfigurationsutökningen worktreeConfig har aktiverats. Läsa stycket\n"
 "”KONFIGURATIONSFIL” i ”git help worktree” för detaljer"
 
 msgid "Other"
@@ -6506,7 +6506,7 @@ msgstr "fsmonitor: cookie_result '%d' != SEEN"
 
 #, c-format
 msgid "could not start IPC thread pool on '%s'"
-msgstr "kunde inte starta IPC-trådpol på ”%s”"
+msgstr "kunde inte starta IPC-trådpool på ”%s”"
 
 msgid "could not start fsmonitor listener thread"
 msgstr "kunde inte starta fsmonitor-lyssnartråd"
@@ -7977,7 +7977,7 @@ msgid "suppress duplicate entries"
 msgstr "undertryck dublettposter"
 
 msgid "show sparse directories in the presence of a sparse index"
-msgstr "visa glesa kataloger när et glest index existerar"
+msgstr "visa glesa kataloger när ett glest index existerar"
 
 msgid ""
 "--format cannot be used with -s, -o, -k, -t, --resolve-undo, --deduplicate, "
@@ -8969,7 +8969,7 @@ msgid "failed to remove 'git notes merge' worktree"
 msgstr "misslyckades ta bort arbetskatalogen för ”git notes merge”"
 
 msgid "failed to read ref NOTES_MERGE_PARTIAL"
-msgstr "misslyckades läsa references NOTES_MERGE_PARTIAL"
+msgstr "misslyckades läsa referensen NOTES_MERGE_PARTIAL"
 
 msgid "could not find commit from NOTES_MERGE_PARTIAL."
 msgstr "kunde inte hitta incheckning från NOTES_MERGE_PARTIAL."
@@ -9197,7 +9197,7 @@ msgstr ""
 msgid ""
 "object already configured in another uploadpack.blobpackfileuri (got '%s')"
 msgstr ""
-"objektet redan konfigurerat i et annat uploadpack.blobpackfileuri (fick '%s)"
+"objektet redan konfigurerat i ett annat uploadpack.blobpackfileuri (fick '%s)"
 
 #, c-format
 msgid "could not get type of object %s in pack %s"
@@ -12134,7 +12134,7 @@ msgid ""
 "directory '%s' contains untracked files, but is not in the sparse-checkout "
 "cone"
 msgstr ""
-"katalogen ”%s” innehåller ospårade filer, men är inte i området som ages i "
+"katalogen ”%s” innehåller ospårade filer, men är inte i området som anges i "
 "”sparse-checkout”"
 
 #, c-format
@@ -12726,7 +12726,7 @@ msgstr "misslyckades klona ”%s” till undermodulsökvägen ”%s”"
 
 #, c-format
 msgid "could not get submodule directory for '%s'"
-msgstr "kunde inte få tag i undermodulkatalog för ”%s”"
+msgstr "kunde inte få tag i undermodulskatalog för ”%s”"
 
 msgid "alternative anchor for relative paths"
 msgstr "alternativa ankare för relativa sökvägar"
@@ -12830,7 +12830,7 @@ msgid ""
 "Fetched in submodule path '%s', but it did not contain %s. Direct fetching "
 "of that commit failed."
 msgstr ""
-"Hämtade i undermodulssökvägen ”%s”, men den innehöll inte %s. Direkt "
+"Hämtade i undermodulsökvägen ”%s”, men den innehöll inte %s. Direkt "
 "hämtning av incheckningen misslyckades."
 
 #, c-format
@@ -16080,7 +16080,7 @@ msgid ""
 "do not munge pathnames and use NULs as output field terminators in --raw or "
 "--numstat"
 msgstr ""
-"skriv inte om sökvägsnamn och använd NUL-tecken som fältseparerare i --raw "
+"skriv inte om sökvägsnamn och använd NUL-tecken som fältavdelare i --raw "
 "eller --numstat"
 
 msgid "<prefix>"
@@ -16689,7 +16689,7 @@ msgstr ""
 "”git help -a” och ”git help -g” visar tillgängliga underkommandon och\n"
 "några konceptvägledningar. Se ”git help <kommando>” eller ”git help\n"
 "<koncept>” för att läsa mer om specifika underkommandon och koncept.\n"
-"See ”git help git” för en översikt över systemet."
+"Se ”git help git” för en översikt över systemet."
 
 #, c-format
 msgid "unsupported command listing type '%s'"
@@ -17056,7 +17056,7 @@ msgid ""
 "  asked for: %s\n"
 "   redirect: %s"
 msgstr ""
-"kan inte uppdatera urlbas från omdirigerin:\n"
+"kan inte uppdatera urlbas från omdirigering:\n"
 "        bad om: %s\n"
 "  omdirigering: %s"
 
@@ -17914,7 +17914,7 @@ msgid "multi-pack-index stores a 64-bit offset, but off_t is too small"
 msgstr "multi-pack-index innehåller 64-bitars offset, men off_t är för liten"
 
 msgid "multi-pack-index large offset out of bounds"
-msgstr "stort offset för mult-pack-index utanför gränsen"
+msgstr "stort offset för multi-pack-index utanför gränsen"
 
 msgid "multi-pack-index file exists, but failed to parse"
 msgstr "multi-pack-indexfilen finns, men kunde inte tolkas"
@@ -19248,7 +19248,7 @@ msgstr ""
 "        enrads, om inget incheckningsmeddelande angavs); använd\n"
 "        -c <incheckning> för att skriva om meddelandet.\n"
 "u, update-ref <ref> = spåra en platshållare för <ref> att uppdatera\n"
-"                      till denna position bland nya inchecknngar.\n"
+"                      till denna position bland nya incheckningar.\n"
 "                      <ref> uppdateras i slutet av ombaseringen.\n"
 "\n"
 "Du kan byta ordning på raderna; de utförs uppifrån och ned.\n"
@@ -23265,7 +23265,7 @@ msgstr "Nödvändig SMTP-server har inte angivits korrekt."
 
 #, perl-format
 msgid "Server does not support STARTTLS! %s"
-msgstr "Servern stöder inte SMARTTLS! %s"
+msgstr "Servern stöder inte STARTTLS! %s"
 
 #, perl-format
 msgid "STARTTLS failed! %s"
