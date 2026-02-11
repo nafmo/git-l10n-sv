@@ -6516,7 +6516,7 @@ msgid "Lockfile created but not reported: %s"
 msgstr "Låsfil skapad men inte rapporterad: %s"
 
 msgid "git fetch [<options>] [<repository> [<refspec>...]]"
-msgstr "git fetch [<flaggor>] [<arkiv> [<refspec>...]]"
+msgstr "git fetch [<flaggor>] [<arkiv> [<referensspecifikation>...]]"
 
 msgid "git fetch [<options>] <group>"
 msgstr "git fetch [<flaggor>] <grupp>"
@@ -6844,7 +6844,7 @@ msgid "write the commit-graph after fetching"
 msgstr "skriv incheckningsgrafen efter hämtning"
 
 msgid "accept refspecs from stdin"
-msgstr "ta emot referenser från standard in"
+msgstr "ta emot referensspecifikationer från standard in"
 
 msgid "--negotiate-only needs one or more --negotiation-tip=*"
 msgstr "--negotiate-only behöver en eller flera --negotiation-tip=*"
@@ -8602,7 +8602,7 @@ msgid "show changes against <rev> in cover letter or single patch"
 msgstr "visa ändringar mot <rev> i omslagsbrev eller ensam patch"
 
 msgid "show changes against <refspec> in cover letter or single patch"
-msgstr "visa ändringar mot <refspec> i omslagsbrev eller ensam patch"
+msgstr "visa ändringar mot <referensspecifikation> i omslagsbrev eller ensam patch"
 
 msgid "percentage by which creation is weighted"
 msgstr "procent som skapelse vägs med"
@@ -10277,7 +10277,7 @@ msgid "cannot prune in a precious-objects repo"
 msgstr "kan inte rensa i ett ”precious-objekt”-arkiv"
 
 msgid "git pull [<options>] [<repository> [<refspec>...]]"
-msgstr "git pull [<flaggor>] [<arkiv> [<refspec>...]]"
+msgstr "git pull [<flaggor>] [<arkiv> [<referensspecifikation>...]]"
 
 msgid ""
 "There is no candidate for rebasing against among the refs that you just "
@@ -10465,7 +10465,7 @@ msgid "cannot rebase with locally recorded submodule modifications"
 msgstr "kan inte ombasera med lokalt lagrade ändringar i undermodul"
 
 msgid "git push [<options>] [<repository> [<refspec>...]]"
-msgstr "git push [<flaggor>] [<arkiv> [<refspec>...]]"
+msgstr "git push [<flaggor>] [<arkiv> [<referensspecifikation>...]]"
 
 msgid "tag shorthand without <tag>"
 msgstr "taggförkortning utan <tagg>"
@@ -11623,7 +11623,7 @@ msgstr "ohanterad branch.%s.rebase=%s; antar ”true”"
 
 #, c-format
 msgid "Could not get fetch map for refspec %s"
-msgstr "Kunde inte hämta mappning för referensspecifikation %s"
+msgstr "Kunde inte hämta mappning för referensspecifikationen %s"
 
 msgid "(matching)"
 msgstr "(träffande)"
@@ -21011,7 +21011,7 @@ msgid ""
 "Did you mean to create a new branch by pushing to\n"
 "'%s:refs/heads/%s'?"
 msgstr ""
-"<Källa>-delen av ref.spec-en är ett incheckningsobjekt.\n"
+"<Källa>-delen av referensspecifikationen är ett incheckningsobjekt.\n"
 "Var det meningen att skapa en ny gren genom att sända\n"
 "till ”%s:refs/heads/%s”?"
 
@@ -21021,7 +21021,7 @@ msgid ""
 "Did you mean to create a new tag by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"<Källa>-delen av ref.spec-en är ett taggobjekt.\n"
+"<Källa>-delen av referensspecifikationen är ett taggobjekt.\n"
 "Var det meningen att skapa en ny tagg genom att sända\n"
 "till ”%s:refs/tags/%s”?"
 
@@ -21031,7 +21031,7 @@ msgid ""
 "Did you mean to tag a new tree by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"<Källa>-delen av ref.spec-en är ett trädobjekt.\n"
+"<Källa>-delen av referensspecifikationen är ett trädobjekt.\n"
 "Var det meningen att tagga ett nytt träd genom att sända\n"
 "till ”%s:refs/tags/%s”?"
 
@@ -21041,14 +21041,14 @@ msgid ""
 "Did you mean to tag a new blob by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"<Källa>-delen av ref.spec-en är ett blobobjekt.\n"
+"<Källa>-delen av referensspecifikationen är ett blobobjekt.\n"
 "Var det meningen att tagga en ny blob genom att sända\n"
 "till ”%s:refs/tags/%s”?"
 
 #, c-format
 msgid ""
 "The <src> part of the refspec ('%s') is an object ID that doesn't exist.\n"
-msgstr "<Källa>-delen av ref.spec-en (”%s”) är ett objekt-ID som inte finns.\n"
+msgstr "<Källa>-delen av referensspecifikationen (”%s”) är ett objekt-ID som inte finns.\n"
 
 #, c-format
 msgid "%s cannot be resolved to branch"
@@ -21064,7 +21064,7 @@ msgstr "fjärr-referensspecifikationen ”%s” motsvarar mer än en"
 
 #, c-format
 msgid "dst ref %s receives from more than one src"
-msgstr "fjärr-referensen ”%s” hämtar från mer än en källa"
+msgstr "dst referensen ”%s” hämtar från mer än en källa"
 
 msgid "HEAD does not point to a branch"
 msgstr "HEAD pekar inte på en gren"
@@ -23096,8 +23096,8 @@ msgstr ""
 
 msgid "this remote helper should implement refspec capability"
 msgstr ""
-"fjärrhjälparen behöver implementera förmåga för referensspecifikationer "
-"(refspec)"
+"denna fjärrhjälpare behöver implementera förmåga för "
+"referensspecifikationer"
 
 #, c-format
 msgid "%s unexpectedly said: '%s'"
