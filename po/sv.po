@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: git 2.53.0\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2026-01-22 23:57+0000\n"
-"PO-Revision-Date: 2026-01-27 19:33+0100\n"
+"PO-Revision-Date: 2026-02-13 21:14+0100\n"
 "Last-Translator: Peter Krefting <peter@softwolves.pp.se>\n"
 "Language-Team: Svenska <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -1807,7 +1807,7 @@ msgid "'%s' is already used by worktree at '%s'"
 msgstr "”%s” används redan av arbetskatalogen ”%s”"
 
 msgid "git add [<options>] [--] <pathspec>..."
-msgstr "git add [<flaggor>] [--] <sökväg>..."
+msgstr "git add [<flaggor>] [--] <sökvägsangivelse>..."
 
 #, c-format
 msgid "cannot chmod %cx '%s'"
@@ -2345,7 +2345,7 @@ msgstr ""
 "git bisect start [--term-(bad|new)=<term-ny> --term-(good|old)=<term-"
 "gammal>]\n"
 "                 [--no-checkout] [--first-parent] [<dålig> [<bra>...]] [--] "
-"[<sökvägsspecar>...]"
+"[<sökvägsangivelser>...]"
 
 msgid "git bisect (bad|new|<term-new>) [<rev>]"
 msgstr "git bisect (bad|new|<term-ny>) [<incheckning>]"
@@ -3879,7 +3879,7 @@ msgid "checkout their version for unmerged files"
 msgstr "checka ut deras version för ej sammanslagna filer"
 
 msgid "do not limit pathspecs to sparse entries only"
-msgstr "begränsa inte sökvägar till endast glesa poster"
+msgstr "begränsa inte sökvägsangivelser till endast glesa poster"
 
 #, c-format
 msgid "options '-%c', '-%c', and '%s' cannot be used together"
@@ -3966,7 +3966,7 @@ msgid ""
 "git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] "
 "[<pathspec>...]"
 msgstr ""
-"git clean [-d] [-f] [-i] [-n] [-q] [-e <mönster>] [-x | -X] [--] <sökväg>..."
+"git clean [-d] [-f] [-i] [-n] [-q] [-e <mönster>] [-x | -X] [--] <sökvägsangivelse>..."
 
 #, c-format
 msgid "Removing %s\n"
@@ -4602,10 +4602,10 @@ msgstr ""
 "           [--date=<datum>] [--cleanup=<läge>] [--[no-]status]\n"
 "           [-i | -o] [--pathspec-from-file=<fil> [--pathspec-file-nul]]\n"
 "           [(--trailer <symbol>[(=|:)<värde>])...] [-S[<nyckel-id>]]\n"
-"           [--] [<sökväg>...]"
+"           [--] [<sökvägsangivelse>...]"
 
 msgid "git status [<options>] [--] [<pathspec>...]"
-msgstr "git status [<flaggor>] [--] <sökväg>..."
+msgstr "git status [<flaggor>] [--] <sökvägsangivelse>..."
 
 msgid ""
 "You asked to amend the most recent commit, but doing so would make\n"
@@ -6516,7 +6516,7 @@ msgid "Lockfile created but not reported: %s"
 msgstr "Låsfil skapad men inte rapporterad: %s"
 
 msgid "git fetch [<options>] [<repository> [<refspec>...]]"
-msgstr "git fetch [<flaggor>] [<arkiv> [<refspec>...]]"
+msgstr "git fetch [<flaggor>] [<arkiv> [<referensspecifikation>...]]"
 
 msgid "git fetch [<options>] <group>"
 msgstr "git fetch [<flaggor>] <grupp>"
@@ -6844,7 +6844,7 @@ msgid "write the commit-graph after fetching"
 msgstr "skriv incheckningsgrafen efter hämtning"
 
 msgid "accept refspecs from stdin"
-msgstr "ta emot referenser från standard in"
+msgstr "ta emot referensspecifikationer från standard in"
 
 msgid "--negotiate-only needs one or more --negotiation-tip=*"
 msgstr "--negotiate-only behöver en eller flera --negotiation-tip=*"
@@ -8362,7 +8362,7 @@ msgstr ""
 "<funknamn> i <fil>"
 
 msgid "-L<range>:<file> cannot be used with pathspec"
-msgstr "-L<intervall>:<fil> kan inte användas med sökvägsspecifikation"
+msgstr "-L<intervall>:<fil> kan inte användas med sökvägsangivelse"
 
 msgid ""
 "\n"
@@ -8602,7 +8602,7 @@ msgid "show changes against <rev> in cover letter or single patch"
 msgstr "visa ändringar mot <rev> i omslagsbrev eller ensam patch"
 
 msgid "show changes against <refspec> in cover letter or single patch"
-msgstr "visa ändringar mot <refspec> i omslagsbrev eller ensam patch"
+msgstr "visa ändringar mot <referensspecifikation> i omslagsbrev eller ensam patch"
 
 msgid "percentage by which creation is weighted"
 msgstr "procent som skapelse vägs med"
@@ -10277,7 +10277,7 @@ msgid "cannot prune in a precious-objects repo"
 msgstr "kan inte rensa i ett ”precious-objekt”-arkiv"
 
 msgid "git pull [<options>] [<repository> [<refspec>...]]"
-msgstr "git pull [<flaggor>] [<arkiv> [<refspec>...]]"
+msgstr "git pull [<flaggor>] [<arkiv> [<referensspecifikation>...]]"
 
 msgid ""
 "There is no candidate for rebasing against among the refs that you just "
@@ -10465,7 +10465,7 @@ msgid "cannot rebase with locally recorded submodule modifications"
 msgstr "kan inte ombasera med lokalt lagrade ändringar i undermodul"
 
 msgid "git push [<options>] [<repository> [<refspec>...]]"
-msgstr "git push [<flaggor>] [<arkiv> [<refspec>...]]"
+msgstr "git push [<flaggor>] [<arkiv> [<referensspecifikation>...]]"
 
 msgid "tag shorthand without <tag>"
 msgstr "taggförkortning utan <tagg>"
@@ -11623,7 +11623,7 @@ msgstr "ohanterad branch.%s.rebase=%s; antar ”true”"
 
 #, c-format
 msgid "Could not get fetch map for refspec %s"
-msgstr "Kunde inte hämta mappning för referensspecifikation %s"
+msgstr "Kunde inte hämta mappning för referensspecifikationen %s"
 
 msgid "(matching)"
 msgstr "(träffande)"
@@ -12406,7 +12406,7 @@ msgstr "Räknar referenser"
 msgid ""
 "git rerere [clear | forget <pathspec>... | diff | status | remaining | gc]"
 msgstr ""
-"git rerere [clear | forget <sökväg>... | diff | status | remaining | gc]"
+"git rerere [clear | forget <sökvägsangivelsen>... | diff | status | remaining | gc]"
 
 msgid "register clean resolutions in index"
 msgstr "registrera rena lösningar i indexet"
@@ -12424,7 +12424,7 @@ msgstr ""
 "git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<incheckning>]"
 
 msgid "git reset [-q] [<tree-ish>] [--] <pathspec>..."
-msgstr "git reset [-q] [<träd-igt>] [--] <sökvägar>..."
+msgstr "git reset [-q] [<träd-igt>] [--] <sökvägsangivelse>..."
 
 msgid ""
 "git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]"
@@ -12432,7 +12432,7 @@ msgstr ""
 "git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<träd-igt>]"
 
 msgid "git reset --patch [<tree-ish>] [--] [<pathspec>...]"
-msgstr "git reset --patch [<träd-igt>] [--] [<sökvägar>...]"
+msgstr "git reset --patch [<träd-igt>] [--] [<sökvägsangivelse>...]"
 
 msgid "mixed"
 msgstr "blandad"
@@ -12715,7 +12715,7 @@ msgid ""
 msgstr ""
 "git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch]\n"
 "       [--quiet] [--pathspec-from-file=<fil> [--pathspec-file-nul]]\n"
-"       [--] [<sökväg>...]"
+"       [--] [<sökvägsangivelse>...]"
 
 msgid ""
 "the following file has staged content different from both the\n"
@@ -13224,7 +13224,7 @@ msgstr ""
 "          [-u | --include-untracked] [-a | --all] [(-m | --message "
 "<meddelande>]\n"
 "          [--pathspec-from-file=<fil> [--pathspec-file-nul]]\n"
-"          [--] [<sökväg>...]]"
+"          [--] [<sökvägsangivelse>...]]"
 
 msgid ""
 "git stash save [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q | "
@@ -14915,7 +14915,7 @@ msgstr "bunt-uri: raden har tom nyckel eller värde"
 
 #, c-format
 msgid "unrecognized bundle hash algorithm: %s"
-msgstr "okänd hashningsalgoritm för bunt: ”%s”"
+msgstr "okänd hashningsalgoritm för bunt: %s"
 
 #, c-format
 msgid "unknown capability '%s'"
@@ -15130,13 +15130,13 @@ msgid "Count unpacked number of objects and their disk consumption"
 msgstr "Räkna antal opackade objekt och mängd diskutrymme"
 
 msgid "Retrieve and store user credentials"
-msgstr "Hämta och spara användarreferenser"
+msgstr "Hämta och spara inloggningsuppgifter för användare"
 
 msgid "Helper to temporarily store passwords in memory"
 msgstr "Hjälpprogram för att tillfälligt lagra lösenord i minnet"
 
 msgid "Helper to store credentials on disk"
-msgstr "Hjälpprogram för att lagra användarreferenser på disk"
+msgstr "Hjälpprogram för att lagra inloggningsuppgifter på disk"
 
 msgid "Export a single commit to a CVS checkout"
 msgstr "Exportera en enkel incheckning i en CVS-utcheckning"
@@ -16910,7 +16910,7 @@ msgstr "--follow kräver exakt en sökvägsangivelse"
 
 #, c-format
 msgid "pathspec magic not supported by --follow: %s"
-msgstr "sökvägs-magi stöds inte av --follow: %s"
+msgstr "sökvägsuttryck stöds inte av --follow: %s"
 
 #, c-format
 msgid "options '%s', '%s', '%s', and '%s' cannot be used together"
@@ -19699,7 +19699,7 @@ msgstr "läs sökvägsangivelse från fil"
 
 msgid ""
 "with --pathspec-from-file, pathspec elements are separated with NUL character"
-msgstr "med --pathspec-from-file, sökvägsangivelser avdelas med NUL-tecken"
+msgstr "med --pathspec-from-file, sökvägsangivelseposter avdelas med NUL-tecken"
 
 #, c-format
 msgid "bad boolean environment value '%s' for '%s'"
@@ -19738,7 +19738,7 @@ msgid "invalid attribute name %s"
 msgstr "ogiltigt attributnamn %s"
 
 msgid "global 'glob' and 'noglob' pathspec settings are incompatible"
-msgstr "de globala sökvägsinställningarna ”glob” och ”noglob” är inkompatibla"
+msgstr "de globala sökvägsangivelse-inställningarna ”glob” och ”noglob” är inkompatibla"
 
 msgid ""
 "global 'literal' pathspec setting is incompatible with all other global "
@@ -19760,7 +19760,7 @@ msgstr "”)” saknas i slutet av sökvägsuttrycket för ”%s”"
 
 #, c-format
 msgid "Unimplemented pathspec magic '%c' in '%s'"
-msgstr "Ej implementerat sökvägsuttryckmagi ”%c” i ”%s”"
+msgstr "Ej implementerat sökvägsuttryck ”%c” i ”%s”"
 
 #, c-format
 msgid "%s: 'literal' and 'glob' are incompatible"
@@ -21011,7 +21011,7 @@ msgid ""
 "Did you mean to create a new branch by pushing to\n"
 "'%s:refs/heads/%s'?"
 msgstr ""
-"<Källa>-delen av ref.spec-en är ett incheckningsobjekt.\n"
+"<Källa>-delen av referensspecifikationen är ett incheckningsobjekt.\n"
 "Var det meningen att skapa en ny gren genom att sända\n"
 "till ”%s:refs/heads/%s”?"
 
@@ -21021,7 +21021,7 @@ msgid ""
 "Did you mean to create a new tag by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"<Källa>-delen av ref.spec-en är ett taggobjekt.\n"
+"<Källa>-delen av referensspecifikationen är ett taggobjekt.\n"
 "Var det meningen att skapa en ny tagg genom att sända\n"
 "till ”%s:refs/tags/%s”?"
 
@@ -21031,7 +21031,7 @@ msgid ""
 "Did you mean to tag a new tree by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"<Källa>-delen av ref.spec-en är ett trädobjekt.\n"
+"<Källa>-delen av referensspecifikationen är ett trädobjekt.\n"
 "Var det meningen att tagga ett nytt träd genom att sända\n"
 "till ”%s:refs/tags/%s”?"
 
@@ -21041,14 +21041,14 @@ msgid ""
 "Did you mean to tag a new blob by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
-"<Källa>-delen av ref.spec-en är ett blobobjekt.\n"
+"<Källa>-delen av referensspecifikationen är ett blobobjekt.\n"
 "Var det meningen att tagga en ny blob genom att sända\n"
 "till ”%s:refs/tags/%s”?"
 
 #, c-format
 msgid ""
 "The <src> part of the refspec ('%s') is an object ID that doesn't exist.\n"
-msgstr "<Källa>-delen av ref.spec-en (”%s”) är ett objekt-ID som inte finns.\n"
+msgstr "<Källa>-delen av referensspecifikationen (”%s”) är ett objekt-ID som inte finns.\n"
 
 #, c-format
 msgid "%s cannot be resolved to branch"
@@ -21064,7 +21064,7 @@ msgstr "fjärr-referensspecifikationen ”%s” motsvarar mer än en"
 
 #, c-format
 msgid "dst ref %s receives from more than one src"
-msgstr "fjärr-referensen ”%s” hämtar från mer än en källa"
+msgstr "dst referensen ”%s” hämtar från mer än en källa"
 
 msgid "HEAD does not point to a branch"
 msgstr "HEAD pekar inte på en gren"
@@ -23096,8 +23096,8 @@ msgstr ""
 
 msgid "this remote helper should implement refspec capability"
 msgstr ""
-"fjärrhjälparen behöver implementera förmåga för referensspecifikationer "
-"(refspec)"
+"denna fjärrhjälpare behöver implementera förmåga för "
+"referensspecifikationer"
 
 #, c-format
 msgid "%s unexpectedly said: '%s'"
