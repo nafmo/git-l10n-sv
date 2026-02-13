@@ -15130,13 +15130,13 @@ msgid "Count unpacked number of objects and their disk consumption"
 msgstr "Räkna antal opackade objekt och mängd diskutrymme"
 
 msgid "Retrieve and store user credentials"
-msgstr "Hämta och spara användarreferenser"
+msgstr "Hämta och spara användar-inloggningsuppgifter"
 
 msgid "Helper to temporarily store passwords in memory"
 msgstr "Hjälpprogram för att tillfälligt lagra lösenord i minnet"
 
 msgid "Helper to store credentials on disk"
-msgstr "Hjälpprogram för att lagra användarreferenser på disk"
+msgstr "Hjälpprogram för att lagra inloggningsuppgifter på disk"
 
 msgid "Export a single commit to a CVS checkout"
 msgstr "Exportera en enkel incheckning i en CVS-utcheckning"
